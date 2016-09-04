@@ -24,4 +24,12 @@ body {
 .secondary {
   background-color: rgba(0, 0, 0, 0.9);
   margin-top: 10px;
+  height: 25%;
+}
+/*Media Queries*/
+@media screen and (min-width: 300px) {
+  .secondary {
+    width: 47.5%;
+    display: inline-block;
+  }
 }
