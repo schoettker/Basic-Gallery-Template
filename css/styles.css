@@ -1,0 +1,27 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+body {
+  margin: 0;
+}
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+.wrap {
+  width: 95%;
+  margin: 0 auto;
+}
+.secondary {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 10px;
+}
