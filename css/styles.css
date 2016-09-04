@@ -1,17 +1,18 @@
 /* For testing only */
 
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
 }
 
 .columns {
   min-height: 100px;
-}
+}*/
 
 /* End for testing */
 body {
   margin: 0;
+  background: gray;
 }
 .container {
   width: 98%;
@@ -22,8 +23,11 @@ body {
   margin: 10px auto 0;
   text-align: center;
 }
-.secondary {
+.columns {
+  min-height: 50px;
   background-color: rgba(0, 0, 0, 0.9);
+}
+.secondary {
   margin-top: 10px;
   height: 25%;
 }
