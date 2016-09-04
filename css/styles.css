@@ -19,7 +19,8 @@ body {
 }
 .wrap {
   width: 95%;
-  margin: 0 auto;
+  margin: 10px auto 0;
+  text-align: center;
 }
 .secondary {
   background-color: rgba(0, 0, 0, 0.9);
@@ -31,5 +32,15 @@ body {
   .secondary {
     width: 47.5%;
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  .wrap {
+    margin-top: 40px;
+  }
+  .secondary {
+    width: 31%;
+    height: 15vw;
   }
 }
